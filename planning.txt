@@ -1,0 +1,30 @@
+# Text2Query Agent - Planning
+
+## Phase 1: Project Setup and Core Logic
+
+- [X] Create project directory and initial files (`planning.txt`, `README.md`, `app.py`, `requirements.txt`).
+- [ ] Set up virtual environment.
+- [ ] Install initial dependencies: `pandas`, `streamlit`, `langchain`, `langgraph`, `ollama`.
+- [ ] Implement the core agentic logic in a separate module (`agent.py`).
+  - [ ] Load Excel data using pandas.
+  - [ ] Define the Langgraph agent state.
+  - [ ] Implement the node for generating pandas code from a natural language query using an Ollama-based LLM.
+  - [ ] Implement the node for executing the generated pandas code.
+  - [ ] Implement the conditional edge for checking code compilation and execution errors.
+  - [ ] Create the graph to orchestrate the nodes and edges.
+
+## Phase 2: Streamlit UI and Integration
+
+- [ ] Develop the Streamlit interface in `app.py`.
+  - [ ] Add a file uploader for the Excel sheet.
+  - [ ] Add a text input for the natural language query.
+  - [ ] Add a button to trigger the query execution.
+  - [ ] Display the results (dataframe or text) or error messages.
+- [ ] Integrate the core agent logic from `agent.py` into the Streamlit app.
+
+## Phase 3: Refinement and Documentation
+
+- [ ] Refine the prompts used for the LLM to improve the accuracy of the generated pandas code.
+- [ ] Add error handling for file loading and other potential issues.
+- [ ] Update the `README.md` with detailed instructions on how to set up and run the project.
+- [ ] Add comments to the code to explain the logic.

@@ -1,0 +1,8 @@
+pandas
+streamlit
+langchain
+langgraph
+ollama
+langchain-community
+openpyxl
+
