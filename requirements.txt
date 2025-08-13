@@ -3,6 +3,6 @@ streamlit
 langchain
 langgraph
 ollama
-langchain-community
 openpyxl
-
+python-dotenv
+openai
